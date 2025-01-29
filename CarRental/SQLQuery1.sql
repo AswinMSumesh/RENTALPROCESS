@@ -1,0 +1,58 @@
+﻿CREATE TABLE Tools (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(50) NOT NULL,
+    Rate DECIMAL(18, 2) NOT NULL,
+    Status INT NOT NULL DEFAULT 1);
+
+
+CREATE TABLE RentTools (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    UserId INT NOT NULL,
+    ToolId INT NOT NULL,
+    FromDate DATE NOT NULL,
+    ToDate DATE NOT NULL,
+    Payment DECIMAL(18, 2) NOT NULL,
+    PhoneNumber NVARCHAR(50) NOT NULL,
+    Aadhar NVARCHAR(50) NOT NULL,
+    BookingDate DATE NOT NULL,
+);
+
+
+
+
+
+CREATE TABLE Cars (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    CarName NVARCHAR(50) NOT NULL,
+    PlateNum NVARCHAR(50) NOT NULL,
+    RegYear INT NOT NULL,
+    Color NVARCHAR(50) NOT NULL,
+    Mileage INT NOT NULL,
+    Seats INT NOT NULL,
+    EngineType NVARCHAR(50) NOT NULL,
+    Rate DECIMAL(18, 2) NOT NULL,
+    Status INT NOT NULL DEFAULT 1,
+    Image NVARCHAR(MAX)
+);
+
+CREATE TABLE RentingTable (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    UserId INT NOT NULL,
+    CarId INT NOT NULL,
+    FromDate DATE NOT NULL,
+    ToDate DATE NOT NULL,
+    Payment DECIMAL(18, 2) NOT NULL,
+    PhoneNumber NVARCHAR(50) NOT NULL,
+    Aadhar NVARCHAR(50) NOT NULL,
+    BookingDate DATE NOT NULL,
+);
+
+
+
+CREATE TABLE Users (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(50) NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
+    Type NVARCHAR(50) NOT NULL
+);

@@ -1,0 +1,24 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.13.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:c:\Users\101018\Desktop\New folder\car-rental\.npmrc
+5 silly config load:file:C:\Users\101018\.npmrc
+6 silly config load:file:c:\Users\101018\Desktop\New folder\car-rental\$NVM_DIR\versions\node\20.10.0\lib\etc\npmrc
+7 verbose title npm outdated
+8 verbose argv "outdated" "--json"
+9 verbose logfile logs-max:10 dir:c:\Users\101018\Desktop\New folder\car-rental\$NVM_DIR\versions\node\20.10.0\cache\_logs\2025-01-27T03_17_20_814Z-
+10 verbose logfile c:\Users\101018\Desktop\New folder\car-rental\$NVM_DIR\versions\node\20.10.0\cache\_logs\2025-01-27T03_17_20_814Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 http fetch GET 200 https://registry.npmjs.org/axios 237ms (cache updated)
+15 http fetch GET 200 https://registry.npmjs.org/react-dom 787ms (cache updated)
+16 http fetch GET 200 https://registry.npmjs.org/react 1428ms (cache updated)
+17 http fetch GET 200 https://registry.npmjs.org/next 1472ms (cache updated)
+18 verbose cwd c:\Users\101018\Desktop\New folder\car-rental
+19 verbose os Windows_NT 10.0.19045
+20 verbose node v22.13.1
+21 verbose npm  v10.9.2
+22 verbose exit 0
+23 info ok

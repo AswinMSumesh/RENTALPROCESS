@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #0070f3;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.link {
+  padding: 15px 25px;
+  text-decoration: none;
+  color: white;
+  background-color: #0070f3;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  width: 200px;
+  text-align: center;
+}
+
+.link:hover {
+  background-color: #005bb5;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
